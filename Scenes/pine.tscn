@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://prqnslrsrxjc"]
+
+[ext_resource type="PackedScene" uid="uid://dmkkg4hb1aed3" path="res://Textures/Kits/Graveyard Kit/GLB format/pine.glb" id="1_w3ok6"]
+
+[node name="pine2" instance=ExtResource("1_w3ok6")]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0)
+
+[node name="pine" parent="." index="0"]
+layers = 3
